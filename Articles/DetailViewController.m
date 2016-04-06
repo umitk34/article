@@ -8,7 +8,8 @@
 
 #import "DetailViewController.h"
 
-@interface DetailViewController ()
+@interface DetailViewController () //testing
+
 
 @end
 
@@ -29,7 +30,7 @@
     // Update the user interface for the detail item.
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
-    }
+}
 }
 
 - (void)viewDidLoad {
@@ -42,5 +43,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 @end
