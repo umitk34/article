@@ -12,11 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-<<<<<<< f161d3755f5a0340a0fcb8b3938078ddf4f6e799
-
-=======
->>>>>>> commit in my-second-branch
 @end
-
-//i add this during development
-

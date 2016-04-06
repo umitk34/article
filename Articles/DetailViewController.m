@@ -8,9 +8,7 @@
 
 #import "DetailViewController.h"
 
-@interface DetailViewController () //testing
-//i add this during development
-
+@interface DetailViewController ()
 
 @end
 
