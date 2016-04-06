@@ -14,6 +14,7 @@
 		845567771CB3C48F00702750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845567751CB3C48F00702750 /* Main.storyboard */; };
 		845567791CB3C48F00702750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845567781CB3C48F00702750 /* Assets.xcassets */; };
 		8455677C1CB3C48F00702750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455677A1CB3C48F00702750 /* LaunchScreen.storyboard */; };
+		845567851CB3C4B400702750 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845567831CB3C4B400702750 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		845567781CB3C48F00702750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8455677B1CB3C48F00702750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8455677D1CB3C48F00702750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845567841CB3C4B400702750 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		8455675D1CB3C48F00702750 = {
 			isa = PBXGroup;
 			children = (
+				845567831CB3C4B400702750 /* Model.xcdatamodeld */,
 				845567681CB3C48F00702750 /* Articles */,
 				845567671CB3C48F00702750 /* Products */,
 			);
@@ -156,6 +159,7 @@
 			files = (
 				8455676E1CB3C48F00702750 /* AppDelegate.m in Sources */,
 				845567711CB3C48F00702750 /* MasterViewController.m in Sources */,
+				845567851CB3C4B400702750 /* Model.xcdatamodeld in Sources */,
 				8455676B1CB3C48F00702750 /* main.m in Sources */,
 				845567741CB3C48F00702750 /* DetailViewController.m in Sources */,
 			);
@@ -308,6 +312,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845567831CB3C4B400702750 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845567841CB3C4B400702750 /* Model.xcdatamodel */,
+			);
+			currentVersion = 845567841CB3C4B400702750 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8455675E1CB3C48F00702750 /* Project object */;
 }
